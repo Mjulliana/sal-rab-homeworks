@@ -41,9 +41,9 @@ function addInCartSumChange(sum, delta) {
    var newSum;
    newSum = oldSum + difference;
    var newSumText;
-   newSumText = newSum + '₽';
-   newSumText = `${newSum + '₽'}`;
-
+   newSumText = newSum + ' ';
+   newSumText = + '₽';
+   newSumText = `${newSum} ₽`;
     // Конец решения задания №1.3.
 
     return newSumText;
